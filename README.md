@@ -43,11 +43,4 @@ AAca podes buscar algun socio registrado en el Clud, usando el DNI del mismo, co
 - [@Carlos De cabo](https://www.linkedin.com/in/carlos-eduardo-de-cabo-marchan-717430128/)
 
 
-## Issue
 
-LA App presenta un problema que no realiza aun la Busqueda por persona "Buscarpersona" en este sentido figura un error 
-Page not found (404)
-Request Method:	GET
-Request URL:	http://127.0.0.1:8000/AppGimnasio/buscar/?dni=444
-
-Actualmente esta en proceso de busqueda de la solucion
