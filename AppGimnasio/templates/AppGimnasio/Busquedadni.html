@@ -1,0 +1,17 @@
+{% extends "AppGimnasio/Index.html"%}
+
+    {%load static %}
+
+{% block contenidoQuecambia %}
+<form action="buscar/" method="GET" class="container p-5 bg-alto">
+  <h2 class="display-4 fw-bolder text-center p-3"> Buscar Persona </h2>
+
+  <div class="searchbar">
+  <input type="number" placeholder="Buscar por DNI" name="dni" class="form-label">
+  <input type="submit" value="Buscar" class="btn btn-dark">
+  </div>
+</form>
+
+{% endblock %}
+{% block contenidoQuecambia2 %}
+{% endblock %}

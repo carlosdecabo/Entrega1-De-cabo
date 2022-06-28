@@ -1,0 +1,30 @@
+{% extends "AppGimnasio/Index.html"%}
+
+    {%load static %}
+
+{% block contenidoQuecambia %}
+
+{% if persona %}
+  <section class="container p-5 bg-alto">
+    <h2 class="display-4 fw-bolder text-ceenter p-3"> Personas encontradas</h2>
+
+    {% for p in persona %}
+
+    <div class="col mb-5 card-ancho s-ancho">
+      <div class="card h-100">
+        <h5 class="fw-bolder">{{p.nombre}}</h5>
+        <p>Apellido: {{p.apellido}}</p>
+        <p>DNI: {{p.dni}}</p>
+      </div>
+
+    </div>
+    {% endfor%}
+  </section>
+  {% endif %}
+
+{% endblock %}
+
+
+{% block contenidoQuecambia2 %}
+
+{% endblock %}
